@@ -1,0 +1,27 @@
+*** Creating Trace Output File '.\Output\FreeRTOS-Cours.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_mps_cm3.o"'
+### List of Objects: adding '".\output\simulateur.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\tasks.o"'
+### List of Objects: adding '".\output\list.o"'
+### List of Objects: adding '".\output\queue.o"'
+### List of Objects: adding '".\output\port.o"'
+### List of Objects: adding '".\output\heap_1.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\startup_mps_cm3.o" ".\output\simulateur.o" ".\output\main.o" ".\output\tasks.o" ".\output\list.o" ".\output\queue.o" ".\output\port.o" ".\output\heap_1.o" 
+--library_type=microlib --strict --scatter ".\Output\FreeRTOS-Cours.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FreeRTOS-Cours.map" -o .\Output\FreeRTOS-Cours.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\FreeRTOS-Cours.axf'
+### ADS-LD Command File: '.\Output\FreeRTOS-Cours.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\FreeRTOS-Cours.lnp', Handle=0x00000178
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\FreeRTOS-Cours.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp.sp
+".\output\startup_mps_cm3.o"
+".\output\simulateur.o"
+".\output\main.o"
+".\output\tasks.o"
+".\output\list.o"
+".\output\queue.o"
+".\output\port.o"
+".\output\heap_1.o"
+--library_type=microlib --strict --scatter ".\Output\FreeRTOS-Cours.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\FreeRTOS-Cours.map" -o .\Output\FreeRTOS-Cours.axf
